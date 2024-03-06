@@ -27,5 +27,5 @@ const min_diff =(arr,key)=>{
 }
 
 const arr = [ 1,2,3,5,6,9,10,17,18,20,25,112];
-const res = min_diff(arr ,0);
+const res = min_diff(arr ,10);
 console.log(res);
