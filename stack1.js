@@ -13,10 +13,11 @@ function NGR(arr) {
         }
         stack.push(arr[i]);
     }
-    
+    console.log(stack);
     return result;
 }
 
 
 const arr = [4, 5, 2, 10, 8,12,14,2,1];
 console.log(NGR(arr)); 
+
