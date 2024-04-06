@@ -1,3 +1,5 @@
+//Nearest greater to Right
+
 function NGR(arr) {
     const result = [];
     const stack = [];
