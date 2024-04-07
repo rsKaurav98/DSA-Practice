@@ -1,5 +1,5 @@
 
-const selectedNum = (arr,start ,end,n )=>{
+const selectedNumber = (arr,start ,end,n )=>{
    
     while(start <= end){
 
@@ -41,7 +41,7 @@ const n = arr.length;
 const  start = 0;
 const  end = n-1;
 const target = 6;
-const res =selectedNum(arr,start,end,n);
+const res =selectedNumber(arr,start,end,n);
 const Number1 = BS(arr,0,res.prev,target);
 const Number2 = BS(arr,res.mid,n-1,target)
 console.log(`Index of selected number is ${Number1 !== -1 ?Number1 : Number2 }`)
